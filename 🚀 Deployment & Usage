@@ -1,0 +1,16 @@
+
+Clarinet Configuration
+Ensure your Clarinet.toml points to the correct contract path. If you encounter the "Deployment Plan" error, remember the Project Name Refresh Trick:
+
+Pro Tip: Change the name field in Clarinet.toml to force Hiro Platform to re-index your project.
+
+Testing the DAO
+Bash
+
+# Verify the contract logic
+clarinet check
+
+# Enter the console to simulate votes
+clarinet console
+>> (contract-call? .v6-governance send-tip 'ST1PQHQ... u10000000) ;; Become VIP
+>> (contract-call? .v6-governance vote-on-status true)          ;; Cast Vote
