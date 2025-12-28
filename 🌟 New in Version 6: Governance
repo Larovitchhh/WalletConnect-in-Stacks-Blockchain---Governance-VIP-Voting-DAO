@@ -1,0 +1,11 @@
+
+This version introduces On-Chain Voting. We have transitioned from a centralized control model to a community-inclusive model where VIP status grants actual power.
+
+Key Features:
+VIP-Only Voting: Only users who have contributed more than 10 STX can cast a vote.
+
+Anti-Spam Voting: Each unique principal (wallet) is restricted to one vote per poll.
+
+AppKit Ready: Deeply integrated with Reown/AppKit for real-time UI updates (progress bars, gated buttons).
+
+Dynamic Analytics: Track "Yes" vs "No" counts directly from the blockchain.
