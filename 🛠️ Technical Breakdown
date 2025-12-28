@@ -1,0 +1,10 @@
+
+1. Governance Logic
+vote-on-status: A public function that checks for VIP status before recording a boolean vote.
+
+has-voted: A map that ensures the "one-person-one-vote" principle, preventing double-voting.
+
+yes-votes & no-votes: Global counters that track community sentiment.
+
+2. The VIP Tier (The Gatekeeper)
+The contract automatically promotes users to the VIP tier once their cumulative tips reach 10,000,000 micro-STX (10 STX). This status is required to access the vote-on-status function.
