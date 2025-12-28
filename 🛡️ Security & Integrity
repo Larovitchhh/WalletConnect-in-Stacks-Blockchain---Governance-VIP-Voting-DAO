@@ -1,0 +1,6 @@
+
+Unauthorized Access: The reset-poll function is strictly restricted to the contract-owner.
+
+Immutable Records: Once a vote is cast, it cannot be changed, ensuring the integrity of the poll.
+
+Error Handling: Custom error codes (u401-u405) provide clear feedback to the AppKit frontend for better UX.
