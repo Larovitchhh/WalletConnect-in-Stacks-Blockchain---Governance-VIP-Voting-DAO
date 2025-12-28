@@ -1,0 +1,14 @@
+
+This contract is optimized for the Reown AppKit ecosystem. Developers can leverage the following flow:
+
+Connection: User connects via WalletConnect/AppKit.
+
+Status Check: The frontend calls get-user-status.
+
+UI Adaptation:
+
+Not VIP? The UI shows a "Tip to Unlock Voting" progress bar.
+
+VIP but hasn't voted? The UI displays active "Vote Yes" and "Vote No" buttons.
+
+Already voted? The UI shows a "Vote Recorded" badge and the live results using get-voting-results.
